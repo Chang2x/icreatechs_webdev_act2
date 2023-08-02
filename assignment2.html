@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>HTML Forms Assignment</title>
+    <link rel="stylesheet" href="style.css" >
+  </head>
+  <body>
+    <!--Create a simple contact form-->
+    <div>
+      <form action="#" method="post">
+        <h1>Contact us</h1>
+        <div>
+          <label for="name" id="contact-name">Name<input type="text" required></label>
+        </div>
+        <div>
+          <label for="email" id="contact-email">Email<input type="email" required></label>
+        </div>
+        <div>
+          <label>Message<textarea></textarea></label>
+        </div>
+          <input type="submit" value="Submit">
+      </form>
+    </div>
+    <!--Create a login form-->
+    <div>
+      <form action="#" method="post">
+        <h1>Login</h1>
+        <div>
+          <label>Username<input type="text" required></label>
+        </div>
+        <div>
+          <label>Password<input type="password" required></label>
+        </div>
+          <input type="submit" value="Login">
+      </form>
+    </div>
+    <!--Create a survey form-->
+    <div>
+      <form>
+        <h1>Survey</h1>
+        <div>
+          <label>Name<input type="text"required></label>
+        </div>
+        <div>
+          <label>Age<input type="number" required></label>
+        </div>
+        <div>
+          <label>gender</label>
+          <div>
+            <input type="radio" value="male" name="gender" id="male"><label for="male">male</label>
+            <input type="radio" value="female" name="gender" id="female"><label for="female">female</label>
+          </div>
+        </div>
+        <div>
+          <label>Which programming languages do you know?</label>
+          <div>
+            <input type="checkbox"><label>Javascript</label>
+            <input type="checkbox"><label>Java</label>
+            <input type="checkbox"><label>Python</label>
+            <input type="checkbox"><label>PHP</label>
+          </div>
+        </div>
+        <label>Comments<textarea></textarea></label>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </body>
+</html>

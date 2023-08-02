@@ -1,0 +1,66 @@
+
+form {
+  width: 300px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+
+}
+
+
+h1 {
+  margin-bottom: 20px;
+}
+
+
+.top-div h1, .bot-div h1 {
+  text-align: center;
+}
+
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+/* Style for the radio and checkbox labels */
+input[type="radio"] + label,
+input[type="checkbox"] + label {
+  margin-right: 10px;
+}
+
+/* Style for the submit button */
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* Style for the top and bottom divs */
+.top-div, .bot-div {
+  float: left;
+  margin: 20px;
+}
+
+/* Clear float after each div */
+.clear {
+  clear: both;
+}
+
+
